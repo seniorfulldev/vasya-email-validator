@@ -36,7 +36,7 @@ Use like so
 import validate from 'vasya-email-validator'
 
 // or 
-// const  {validate}  = require("deep-email-validator");
+// const  {validate}  = require("vasya-email-validator");
 
 const main = async () => {
   let res = await validate('vasya99110@gmail.com')
